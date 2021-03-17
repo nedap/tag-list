@@ -1,9 +1,8 @@
 # TagsList
 
-[![CI Status](https://img.shields.io/travis/Anton/TagsList.svg?style=flat)](https://travis-ci.org/Anton/TagsList)
-[![Version](https://img.shields.io/cocoapods/v/TagsList.svg?style=flat)](https://cocoapods.org/pods/TagsList)
-[![License](https://img.shields.io/cocoapods/l/TagsList.svg?style=flat)](https://cocoapods.org/pods/TagsList)
-[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://developer.apple.com/swift/) 
+[![Swift Package Manager](https://img.shields.io/badge/SPM-supported-brightgreen?style=flat)](https://swift.org/package-manager)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
+[![Swift 5.0](https://img.shields.io/badge/swift-5.3-blue.svg?style=flat)](https://developer.apple.com/swift/) 
 
 
 <p align="center">
@@ -27,17 +26,19 @@ Example project includes 3 parts:
 |<img src="https://github.com/inomobile/tag-list/blob/master/DemoGif/TagList%201.gif?raw=true" width="300">|<img src="https://github.com/inomobile/tag-list/blob/master/DemoGif/TagList%202.gif?raw=true" width="300">| <img src="https://github.com/inomobile/tag-list/blob/master/DemoGif/TagList%203.gif?raw=true" width="300">|
 ## Requirements
 
-- iOS 11.0+
+- iOS 10.0+
 - Xcode 9.0
 
 
 ## Installation
 
-TagsList is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+TagsList is available through [Swift Package Manager](https://cocoapods.org). To install
+it, simply add the following to your `Package.swift:`:
 
-```ruby
-pod 'TagsList'
+```swift
+dependencies: [
+.package(url: "https://github.com/nedap/tag-list.git", .exact("0.2.0"))
+]
 ```
 
 Import `TagsList` into your swift source file
