@@ -2,7 +2,7 @@
 
 [![Swift Package Manager](https://img.shields.io/badge/SPM-supported-brightgreen?style=flat)](https://swift.org/package-manager)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
-[![Swift 5.0](https://img.shields.io/badge/swift-5.3-blue.svg?style=flat)](https://developer.apple.com/swift/) 
+[![Swift 5.4](https://img.shields.io/badge/swift-5.4-blue.svg?style=flat)](https://developer.apple.com/swift/) 
 
 
 <p align="center">

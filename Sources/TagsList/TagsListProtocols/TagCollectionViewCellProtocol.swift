@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal protocol TagCollectionViewCellDelegate: class {
+internal protocol TagCollectionViewCellDelegate: AnyObject {
     var itemsConfiguration: TagsListItemConfiguratorProtocol { get set }
     
     func xButtonPressed(_ cell: UICollectionViewCell)
