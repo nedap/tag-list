@@ -12,7 +12,6 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 Example project includes 3 parts:
 - VC is `TagsListDataSource` + customisation of items
 - Simple way to display string array (`DefaultTagsListDataSource`)
@@ -26,8 +25,9 @@ Example project includes 3 parts:
 |<img src="https://github.com/inomobile/tag-list/blob/master/DemoGif/TagList%201.gif?raw=true" width="300">|<img src="https://github.com/inomobile/tag-list/blob/master/DemoGif/TagList%202.gif?raw=true" width="300">| <img src="https://github.com/inomobile/tag-list/blob/master/DemoGif/TagList%203.gif?raw=true" width="300">|
 ## Requirements
 
-- iOS 10.0+
-- Xcode 9.0
+- iOS 12.0+
+- Swift 5.4+
+- Xcode 12.5+
 
 
 ## Installation
