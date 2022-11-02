@@ -115,7 +115,7 @@ public class TagsList: UIView, TagsListProtocol {
         case .verticalSizeToFit:
             layout = TagsLayout()
             layout.scrollDirection = .vertical
-            heightConstraint = heightAnchor.constraint(equalToConstant: tagCollectionView.collectionViewLayout.collectionViewContentSize.height)
+            heightConstraint = heightAnchor.constraint(equalTo: tagCollectionView.contentLayoutGuide.heightAnchor)
         }
         heightConstraint?.isActive = true
         tagCollectionView.collectionViewLayout = layout
